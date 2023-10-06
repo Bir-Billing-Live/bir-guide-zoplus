@@ -6,7 +6,8 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>Zostel Bir Guidebook</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
   <body style="background:#efefef;">
     <div style="max-width:480px;margin:0 auto;">
@@ -15,8 +16,8 @@
             <nav class="navbar fixed-top" id="navBar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#" style="color:#fff">
-                        <img src="zostel-logo.svg" alt="Logo" height="24" class="d-inline-block align-text-top">
-                        <span style="color: #fff;font-size: 14px;text-transform: uppercase;font-weight: bold;vertical-align: text-top;">Bir Travel Guide</span>
+                        <img src="zostel-logo.svg" alt="Logo" height="24" class="d-inline-block">
+                        <span class="navbar-brand-text">Bir Travel Guide</span>
                     </a>
                     <button class="navbar-toggler" type="button"  data-bs-theme="dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -103,7 +104,7 @@
                                 </li>
                             </ul>
                             <hr>
-                            <small class="fixed-bottom p-2 text-end">Version 0.7.1 <br>&copy; FLUTTERBUY ECOM VENTURES PVT LTD</small>
+                            <small class="d-block p-2 text-end">Version 0.9.5 <br>&copy; FLUTTERBUY ECOM VENTURES PVT LTD</small>
                         </div>
                     </div>
                 </div>
@@ -132,7 +133,12 @@
                                 <div class="d-flex w-100 justify-content-between">
                                     <h5 class="mb-1">Laundry</h5>
                                 </div>
-                                <p class="mb-1">Revive your travel-weary clothes with our convenient hostel laundry service while you explore Bir</p>
+                                <p class="mb-1">Revive your travel-weary clothes with our convenient hostel laundry service while you explore Bir.</p>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    Rs 20 / piece (shirts, pants, etc)<br>
+                                    Rs 5 / piece (socks, undies, etc)
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918626989832" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a 
@@ -148,6 +154,10 @@
                                     <h5 class="mb-1">Coworking with Coffee</h5>
                                 </div>
                                 <p class="mb-1">Fuel your productivity with a cozy coworking desk and a complimentary coffee or a beverage of your choice.</p>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    Rs 100 per day (one beverage)
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918626989832" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a 
@@ -163,6 +173,10 @@
                                     <h5 class="mb-1">Snooker</h5>
                                 </div>
                                 <p class="mb-1">Rack 'em up and unwind with a game of snooker – reserve your table at our hostel for some cue action and relaxation.</p>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    Rs 150 per hour (2 players)
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918626989832" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a 
@@ -178,6 +192,10 @@
                                     <h5 class="mb-1">Bonfire</h5>
                                 </div>
                                 <p class="mb-1">Gather 'round the warmth of a crackling bonfire at our hostel and let the stories and laughter ignite your evening.</p>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    Rs 100 per person (min. 4x)
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918626989832" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a 
@@ -208,6 +226,10 @@
                                     <h5 class="mb-1">Climbing Wall</h5>
                                 </div>
                                 <p class="mb-1">Reach new heights of adventure at our hostel with an exhilarating climbing wall that awaits your ascent.</p>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    Rs 100 per person (10-minute session)
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918626989832" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a 
@@ -223,7 +245,10 @@
                                     <h5 class="mb-1">Aromatic Deep Tissue Therapy</h5>
                                 </div>
                                 <p class="mb-1">Indulge in ultimate relaxation with our exclusive Aromatic Deep Tissue Ayurvedic Therapy, currently available for males only, with just one slot per day at 7 PM. Rejuvenate your senses like never before.</p>
-                                <small class="d-block">60 mins for Rs 1200</small>
+                                <small class="d-block text-body-secondary mb-1">
+                                    <i class="bi bi-currency-rupee ic-round"></i>
+                                    60 mins for Rs 1200
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="tel:+918894265921" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-telephone-outbound"></i> Call</a>
                                     <a aria-label="Chat on WhatsApp"  href="https://wa.me/918894265921?text=Hi!%20I'm%20interested%20in%20booking%20a%20session%20of%20aromatic%20deep%20tissue%20therapy%20at%20Zostel" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-whatsapp"></i> Whatsapp</a>
@@ -485,7 +510,7 @@
                                     <small>500m</small>
                                 </div>
                                 <p class="mb-1">Also called Bangoru Waterfall, is one of the most popular treks in Bir. The route can be a bit tricky and the path slippery. Hiring a guide is highly recommended</p>
-                                <small>👍 Difficulty: Moderate</small>
+                                <small>Difficulty: Moderate</small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/eeQcn6xATHTNurh18" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -497,7 +522,7 @@
                                     <small>500m</small>
                                 </div>
                                 <p class="mb-1">Walk up to the Bari village and tune out the World. Listen to the sound of silence. Walk up to the Girgarh forest if you have time and energy left.</p>
-                                <small>👍 Difficulty: Easy</small>
+                                <small>Difficulty: Easy</small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/2qsEzWwyZQHgqJvE6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -521,7 +546,7 @@
                                     <small></small>
                                 </div>
                                 <p class="mb-1">With an elevation gain of 2200m, this trek is not for the faint-hearted. The trek requires stamina and endurance, but offers 360 degree views of the dhauladhar mountains and the surrounding valleys.</p>
-                                <small>👍 Difficulty: Moderately Strenuous</small>
+                                <small>Difficulty: Moderately Strenuous</small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/S8F1v5FD92Zok74YA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -568,7 +593,7 @@
                                     <h5 class="mb-1">Tatwani Hot Springs</h5>
                                     <small>6km return</small>
                                 </div>
-                                <p class="mb-1">An easy drive and hike to the Tatwani Hot Springs. Hiring a guide is recommended but not necessary</p>
+                                <p class="mb-1">An easy drive (75 minutes) and hike (60 minutes) to the Tatwani Hot Springs. Hiring a guide is recommended.</p>
                                 <small>Difficulty: Easy</small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/riVbLzYk2pfS1WQc9" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
@@ -608,7 +633,9 @@
                                     <small>0m</small>
                                 </div>
                                 <p class="mb-1"><em>Zostel</em> &bull; Try the lipsmacking items from Zostel Bir's in-house Olive Kichen.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://olivekitchen.petpooja.com/menu" class="btn btn-sm btn-primary me-md-2" target="_blank"><i class="bi bi-geo-alt-fill"></i> Order Now</a>
                                     <a href="https://maps.app.goo.gl/CnxiyepmckDdRd7s7" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
@@ -621,7 +648,9 @@
                                     <small>500m</small>
                                 </div>
                                 <p class="mb-1"><em>Bir Khas</em> &bull; Healthy and delicious (millet based) preparations</p>
-                                <small>👍 ₹₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/rCk6KEbuTFFhz67JA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -633,7 +662,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; Bir expat community pride themselves to have such a fine bakery in town. Known for it's baked goods, their thaalis also come highly recommended.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/2gsZtSfYH66bZngw6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -645,7 +676,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; Coffee and Cakes ❤️</p>
-                                <small>👍 ₹₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/3kJAkWVn4prcN7tj7" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -657,7 +690,9 @@
                                     <small>1.5km</small>
                                 </div>
                                 <p class="mb-1"><em>Chaugan Chowk</em> &bull; One of the oldest cafes in Bir, popular amongst the paragliding community. Great for breakfasts.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/kR8hrc9yqTRcaGrd6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -669,7 +704,9 @@
                                     <small>1.9km</small>
                                 </div>
                                 <p class="mb-1"><em>Chaugan Chowk</em> &bull; Try their mutton curry and rice; also serve pizzas, trout, and biriyanis; try their caramel custard</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/7GgQBK6RuEmb7Jtd8" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -681,7 +718,9 @@
                                     <small>1.3km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing Site</em> &bull; Famed for it's amazing view of the sunset overlooking the landing site, it is a popoular cafe amongst the tourists.</p>
-                                <small>₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/dAk7HnvFCjuLEZfBA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -693,7 +732,9 @@
                                     <small>1.4km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing Site</em> &bull; A laidback cafe and restaurant conveniently located overlooking the landing site with rooftop seating. Good coffee and himachal delicacies. </p>
-                                <small>₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/rMy8wPZtQBoihxBo9" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -705,7 +746,9 @@
                                     <small>1.5km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; The most famous (and only) South Indian (Andhra) restaurant in Bir.</p>
-                                <small>👍 ₹₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/hJWi9Mki3h8sKrGV8" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -717,7 +760,9 @@
                                     <small>2.9km</small>
                                 </div>
                                 <p class="mb-1"><em>Gunehar</em> &bull; One of the oldest eateries in Bie; popular for it's pizzas. Advance booking recommended.</p>
-                                <small>👍 ₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/i5F5EpgwFPac4RS2A" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -729,7 +774,9 @@
                                     <small>1.5km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing Site</em> &bull; A cozy mud-cafe near the landing site with a beautiful bougainvillea tree and a neat little garden.</p>
-                                <small>👍 ₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/i5F5EpgwFPac4RS2A" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -745,7 +792,9 @@
                                     <small>500m</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; A good place to try Tibetan food with beautiful interiors.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/H1M5grjZxZt3XtSXA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -757,7 +806,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; This is an old family-run place serving authentic Tibetan food.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/t9MahLFFjau7qagx7" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -769,7 +820,9 @@
                                     <small>1.2km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; One of the more popular Tibetan restaurants conveniently located right opposite the Nyingma Monastery. The place has a big (outdoor and indoor) seating ideal for large groups. </p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/RfTvVu56CCo9yhJ17" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -781,7 +834,9 @@
                                     <small>1.1km</small>
                                 </div>
                                 <p class="mb-1"><em>Place</em> &bull; An old family run restaurant where you will find the locals eat. Try the pork fry with tingmo.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/FrKsgBMbJUk77AQ29" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -793,7 +848,9 @@
                                     <small>7km</small>
                                 </div>
                                 <p class="mb-1"><em>Bhattu</em> &bull; A family run Tibetan outlet adjoining the Sherabling Monastery and the Bhattu Stupas serving Indian and Tibetan food</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/mEvm94urQPYrs8229" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -805,15 +862,17 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; A simple yet delicious fastfood joint popular for it's momos and thukpas.</p>
-                                <small>👍 ₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/bUiUZ7Wx2PqxLZdRA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
                             </div>
                         </div><!-- list group -->
-                        <!-- INDIAN FOOD -->
+                        <!-- HIMACHALI FOOD -->
                         <div class="list-group mt-5">
-                            <h4>Indian Cuisine</h4>
+                            <h4>Himachali Cuisine</h4>
                             <!-- Bimla Dhaba -->
                             <div class="list-group-item list-group-item-action">
                                 <div class="d-flex w-100 justify-content-between">
@@ -821,7 +880,9 @@
                                     <small>1.1km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; Visit this dhaba if you miss simple home made food; serves veg, chicken, mutton thali.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/iDAmP8k2yaLBDwtg9" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -833,7 +894,9 @@
                                     <small>1.2km</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; A family run dhaba serving simple vegetarian food.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/Mx6UV6kEhkc2VPpN6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -845,7 +908,9 @@
                                     <small>750m</small>
                                 </div>
                                 <p class="mb-1"><em>Colony</em> &bull; A dhaba with a tandoor serving veg and non-veg food.</p>
-                                <small>₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/xXEb1ifh4Bx53P2d7" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -857,7 +922,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; Lip-smacking simple (veg and nonveg) meals Nepali style. Eat here with the local commercial paragliding pilots. </p>
-                                <small>👍 ₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/Fhwp7vF3c88W79nXA" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -869,7 +936,9 @@
                                     <small>5km</small>
                                 </div>
                                 <p class="mb-1"><em>Ahju</em> &bull; A hugely popular restaurant serving Dhaam thaalis.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/P2SSDqyWf54JSkv78" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -881,7 +950,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; Come here for Tandoori non-vegetarian food. Byo if you like.</p>
-                                <small>👍 ₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/tiUzDVckPmjHRrVM6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -893,7 +964,9 @@
                                     <small>1km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; Come here for aaloo pooris and poha with chai for breakfast (or any time of the day)</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/KXJeqpjE6qSLMugQ6" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -905,7 +978,9 @@
                                     <small>1.1km</small>
                                 </div>
                                 <p class="mb-1"><em>Bir Khas</em> &bull; Famous for it's dhaam thaalis, it is a good place to sample Himachali delicacies.</p>
-                                <small>₹₹₹</small>
+                                <small>
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/BCZmMpDTQW9HmDVW8" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -917,7 +992,9 @@
                                     <small>2.5km</small>
                                 </div>
                                 <p class="mb-1"><em>Bari</em> &bull; Try their Himachali (veg and non-veg) food with breathtaking views of the mountains. Best to call and let them know of your arrival beforehand.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/qPaxhX55Qg8vUCyn8" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -943,7 +1020,9 @@
                                     <small>1.6km</small>
                                 </div>
                                 <p class="mb-1"><em>Landing</em> &bull; Freshly squeezed cold pressed juices and smoothies</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a href="https://maps.app.goo.gl/o9rMsxn5aUVikC2b8" class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -955,7 +1034,9 @@
                                     <small>2km</small>
                                 </div>
                                 <p class="mb-1"><em>Chaugan</em> &bull; The only resto-bar in Bir serving alcoholic beverages with a variety of snack and food options.</p>
-                                <small>👍 ₹₹</small>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
                                     <a class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Directions</a>
                                 </div>
@@ -966,11 +1047,13 @@
                                     <h5 class="mb-1">Pahadee Coffee Roasters</h5>
                                     <small>2.6km</small>
                                 </div>
-                                <p class="mb-1"><em>Gunehar</em> &bull; Himachal's first specialty coffee roastery. Visit to the roastery is by appointment only but the coffee can be ordered online on their website</p>
-                                <small>👍 ₹₹</small>
+                                <p class="mb-1"><em>Gunehar</em> &bull; Himachal's first and only specialty coffee roastery. Visit to the roastery is by appointment only but the coffee can be ordered online on their website</p>
+                                <small>👍 
+                                    <i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i><i class="bi bi-currency-rupee"></i>
+                                </small>
                                 <div class="d-inline-block float-end">
-                                    <a class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Experience</a>
-                                    <a class="btn btn-sm btn-primary me-md-2"><i class="bi bi-geo-alt-fill"></i> Buy</a>
+                                    <a href="https://parabooking.com/coffee-101-with-pahadee-coffee-roasters/?utm_source=birguide-zo" class="btn btn-sm btn-primary me-md-2" target="_blank"><i class="bi bi-backpack4-fill"></i> Experience</a>
+                                    <a href="https://pahadee.coffee/?utm_source=birguide-zo" class="btn btn-sm btn-primary me-md-2" target="_blank"><i class="bi bi-bag-heart-fill"></i> Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -1095,24 +1178,49 @@
         </div>
         <hr>
         <!-- Quick Buttons -->
-        <div class="footer-nav fixed-bottom">
+        <div class="footer-nav text-center fixed-bottom">
             <!-- WiFi Password -->
-            <button type="button" class="btn btn-info btn-sm m-1" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Password: Zostel@123">
-                <i class="bi bi-lock"></i> WiFi
+            <!-- <button type="button" class="btn btn-sm btn-footer" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Password: Zostel@123">
+                <i class="bi bi-wifi"></i><br>WiFi
+            </button> -->
+            <button type="button" class="btn btn-sm btn-footer" data-bs-toggle="modal" data-bs-target="#wifiPwdModal">
+                <i class="bi bi-wifi"></i><br>WiFi
             </button>
             <!-- Food Menu Download -->
-            <a href="https://olivekitchen.petpooja.com/menu" class="btn btn-secondary btn-sm m-1" target="_blank">
-                Food Menu
+            <a href="https://olivekitchen.petpooja.com/menu" class="btn btn-sm btn-footer" target="_blank">
+                <i class="bi bi-cup-hot-fill"></i><br>Food Menu
             </a>
             <!-- Call Kitchen -->
-            <a href="tel:+917650030940" class="btn btn-success btn-sm m-1">
-                <i class="bi bi-telephone"></i> Kitchen
+            <a href="tel:+917650030940" class="btn btn-sm btn-footer">
+                <i class="bi bi-telephone-fill"></i><br>Kitchen
             </a>
             <!-- Call FrontDesk -->
-            <a href="tel:+918626989832" class="btn btn-success btn-sm m-1">
-                <i class="bi bi-telephone"></i> Frontdesk
+            <a href="tel:+918626989832" class="btn btn-sm btn-footer">
+                <i class="bi bi-telephone-fill"></i><br>Frontdesk
             </a>
+            <!-- Info -->
+            <button class="btn btn-sm btn-footer" type="button"  data-bs-theme="dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="bi bi-info-circle-fill"></i><br>Info
+                <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
         </div><!-- footer nav -->
+        <!-- Wi Fi Password Modal -->
+        <div class="modal fade" id="wifiPwdModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">WiFi Password</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    zoxobir9
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
         
     </div>
     
@@ -1139,20 +1247,5 @@
   </body>
 </html>
 <style>
-    .head-container {
-        height: 300px;
-        background: url(zostel-bir-20-20201105103914.jpg) center top no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    .property-name {
-        position: absolute;
-        bottom:0;
-        color:#fff;
-    }
-    .sl-fixed-header{background:#000;}
-    .footer-nav {
-        background: #fff;
-        z-index: 1;
-    }
+    
 </style>
