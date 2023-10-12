@@ -49,3 +49,10 @@
 .footer-nav i {
     font-size:22px;
 }
+
+.navbar.fixed-top,
+.body-wrapper,
+.footer-nav {
+    max-width: 480px;
+    margin:0 auto;
+}
